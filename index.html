@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Trang chủ</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="https://kit.fontawesome.com/6840aa4789.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <h1>HungStore</h1>
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Tìm laptop...">
+                <button type="button" onclick="searchProduct()"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <nav>
+                <a href="index.html">Trang chủ</a>
+                <a href="products.html">Sản phẩm</a>
+                <a href="#">Liên hệ</a>
+                <a href="#">Giỏ hàng</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="banner">
+        <img src="Picture/index/banner1.jpg" class="slide active">
+        <img src="Picture/index/banner2.jpg" class="slide">
+        <button class="prev" onclick="prevSlide()"><i class="fa-solid fa-angle-left"></i></button>
+        <button class="next" onclick="nextSlide()"><i class="fa-solid fa-angle-right"></i></button>
+    </div>
+
+    <div class="container">
+        <img src="Picture/index/Khung giờ vàng.webp" class="banner-bottom">
+        <div class="products">
+            <div class="card">
+                <span class="discount-badge">-5%</span>
+                <img src="Picture/base/rog.png">
+                <h3>ASUS ROG Strix G15</h3>
+
+                <div class="price-box">
+                    <span class="price-old">30.000.000đ</span>
+                    <span class="price-new">29.990.000đ</span>
+                </div>
+
+                <a class="btn" href="#">Mua ngay</a>
+            </div>
+
+            <div class="card">
+                <span class="discount-badge">-8%</span>
+                <img src="Picture/base/msi.png">
+                <h3>MSI Katana GF66</h3>
+                <div class="price-box">
+                    <span class="price-old">29.900.000đ</span>
+                    <span class="price-new">27.500.000đ</span>
+                </div>
+
+                <a class="btn" href="#">Mua ngay</a>
+            </div>
+                <div class="card">
+                <span class="discount-badge">-7%</span> 
+                <img src="Picture/base/dell.png">
+                <h3>Dell G15 Gaming</h3>
+                <div class="price-box">
+                    <span class="price-old">27.990.000đ</span>
+                    <span class="price-new">25.990.000đ</span>
+                </div>
+                <a class="btn" href="#">Mua ngay</a>
+            </div>
+            <div class="card">
+                <span class="discount-badge">-6%</span>
+                <img src="Picture/base/hp.png">
+                <h3>HP Victus 16</h3>
+                <div class="price-box">
+                    <span class="price-old">26.490.000đ</span>
+                    <span class="price-new">26.490.000đ</span>
+                </div>
+                <a class="btn" href="#">Mua ngay</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <img src="Picture/index/banner3.webp" class="banner-bottom">
+        <div class="products">
+             <div class="card">
+                <img src="Picture/base/lenovo.png">
+                <h3>Lenovo Legion 5</h3>
+                <p class="price">28.490.000đ</p>
+                <a class="btn" href="#">Mua ngay</a>
+            </div>
+
+            <div class="card">
+                <img src="Picture/base/tuf.png">
+                <h3>ASUS TUF Gaming F15</h3>
+                <p class="price">23.990.000đ</p>
+                <a class="btn" href="#">Mua ngay</a>
+            </div>
+
+            <div class="card">
+                <img src="Picture/base/gigabyte.png">
+                <h3>Gigabyte G5 Gaming</h3>
+                <p class="price">22.990.000đ</p>
+                <a class="btn" href="#">Mua ngay</a>
+            </div>
+
+            <div class="card">
+                <img src="Picture/base/macbook.png">
+                <h3>MacBook Air M1 2020</h3>
+                <p class="price">21.990.000đ</p>
+                <a class="btn" href="#">Mua ngay</a>
+            </div>
+        </div>
+    </div>
+    
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-about">
+                <h3>Về chúng tôi</h3>
+                <p>HungStore là cửa hàng chuyên cung cấp laptop gaming, laptop văn phòng và linh kiện chính hãng, cam kết giá tốt – bảo hành uy tín – hỗ trợ tận tâm.</p>
+            </div>
+
+            <div class="footer-contact">
+                <h3>Thông tin liên hệ</h3>
+                <p><i class="fa-solid fa-location-dot"></i> Đà Nẵng, Việt Nam</p>
+                <p><i class="fa-solid fa-phone"></i> 0909 123 456</p>
+                <p><i class="fa-solid fa-envelope"></i> hungstore@gmail.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 HungStore. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/base.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
