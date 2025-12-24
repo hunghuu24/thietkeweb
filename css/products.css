@@ -40,37 +40,31 @@
     cursor: pointer;
 }
 
-/* ===== PRODUCTS WRAPPER ===== */
 .products-wrapper {
     flex: 1;
 }
 
-/* ===== PRODUCTS GRID (FLEX) ===== */
 .products {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
 }
 
-/* ===== CARD ===== */
 .card {
     width: calc(25% - 15px);
 }
 
-/* ===== CARD IMAGE ===== */
 .card img {
     height: 170px;
     margin-bottom: 10px;
 }
 
-/* ===== CARD TITLE ===== */
 .card h3 {
     font-size: 15px;
     margin: 8px 0;
     height: 38px;
 }
 
-/* ===== PRICE ===== */
 .price {
     color: #e53935;
     font-weight: bold;
