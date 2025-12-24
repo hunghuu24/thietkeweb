@@ -2,13 +2,11 @@
     margin-bottom: 20px;
 }
 
-/* ===== SHOP LAYOUT ===== */
 .shop-layout {
     display: flex;
     gap: 30px;
 }
 
-/* ===== SIDEBAR FILTER ===== */
 .filter {
     width: 310px;
     background: #fff;
@@ -78,4 +76,25 @@
     font-weight: bold;
     font-size: 18px;
     margin: 5px 0 10px;
+}
+
+@media (max-width: 768px) {
+
+    .shop-layout {
+        flex-direction: column;
+    }
+
+    .filter {
+        width: 100%;
+        position: static;
+        max-height: none;
+    }
+
+    .products {
+        justify-content: center;
+    }
+
+    .card {
+        width: 100%;
+    }
 }

@@ -129,3 +129,22 @@
     margin-top: 40px;
     object-fit: cover;
 }
+
+@media (max-width: 768px) {
+
+    .banner {
+        height: 220px;
+    }
+
+    .products {
+        justify-content: center;
+    }
+
+    .products .card {
+        width: 100%;
+    }
+
+    .card img {
+        height: 200px;
+    }
+}
